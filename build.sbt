@@ -3,7 +3,7 @@ ThisBuild / resolvers ++= Seq(
     Resolver.mavenLocal
 )
 
-ThisBuild / organization := "com.kevin"
+ThisBuild / organization := "com.kevin.flinkdata"
 ThisBuild / scalaVersion := "2.12.16"
 ThisBuild / version      := "0.1.0-SNAPSHOT"
 
