@@ -1,0 +1,19 @@
+2022.08.11 07:21:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /opt/scalaworks/flinkdata/.metals/lsp.trace.json or /home/kevin/.cache/metals/lsp.trace.json[0m
+2022.08.11 07:21:54 INFO  logging to file /opt/scalaworks/flinkdata/.metals/metals.log[0m
+2022.08.11 07:21:54 INFO  Started: Metals version 0.11.8 in workspace '/opt/scalaworks/flinkdata' for client Visual Studio Code 1.67.2.[0m
+2022.08.11 07:21:55 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.08.11 07:21:55 INFO  time: initialize in 1.48s[0m
+2022.08.11 07:21:58 WARN  Build server is not auto-connectable.[0m
+2022.08.11 07:22:04 INFO  shutting down Metals[0m
+2022.08.11 07:22:04 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+[0m
